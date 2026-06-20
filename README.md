@@ -4,7 +4,7 @@
 O objetivo é deixar claro, como o CRUD se conecta com os comandos de Banco de Dados (SQL) e com as requisições de APIs na web (HTTP):
 
 
-# A História: O Sistema de Inventário da "ByteBite"
+# A História: O Sistema de Inventário da "ByteBit"
 Imagine que a ByteBite, é uma lanchonete local voltada para o público geek, que está crescendo rápido. O dono, Seu Felicio, gerencia o estoque de ingredientes (pães, hambúrgueres, queijos) em um caderno, mas os papéis estão sumindo.
 
 Ele contratou a turma do ensino médio para criar uma API REST para o Inventário da ByteBite. O objetivo é gerenciar os itens do estoque de forma digital.
