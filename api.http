@@ -1,0 +1,32 @@
+### Testes da API ByteBite - Extensão REST Client
+
+### 1. Listar todos os ingredientes (GET)
+GET http://127.0.0.1:8080/produtos
+Accept: application/json
+
+
+### 2. Buscar apenas o Pão Nerd (GET)
+GET http://127.0.0.1:8080/produtos/1
+Accept: application/json
+
+
+### 3. Adicionar Queijo Cheddar ao estoque (POST)
+POST http://127.0.0.1:8080/produtos
+Content-Type: application/json
+
+{
+    "nome": "Queijo Cheddar Derretido",
+    "quantidade": 30
+}
+
+### 4. Atualizar a quantidade de hambúrgueres (PUT)
+PUT http://127.0.0.1:8080/produtos/2
+Content-Content-Type:  application/json
+
+{
+    "nome": "Hambúrguer de Pixel (Carne)",
+    "quantidade": 150
+}
+
+### 5. Deletar o Pão Nerd do estoque (DELETE)
+DELETE http://127.0.0.1:8080/produtos/1
